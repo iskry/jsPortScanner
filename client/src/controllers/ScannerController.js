@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from 'react';
 
 import ScannerModel from '../models/ScannerModel';
-import ScannerView from '../views/ScannerView';
+import ScannerView from '../components/ScannerView';
 
 function ScannerController() {
   const [status, setStatus] = useState('');
